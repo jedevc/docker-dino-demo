@@ -67,12 +67,12 @@ Aha! The directory we're trying to upload files to doesn't exist!
 We'll fix this later in the Dockerfile, but for now, we'll use another
 technique to patch the container while it's running!
 
-    $ docker exec -it 74470db53fe6
+    $ docker exec -it 74470db53fe6 /bin/bash
     root@74470db53fe6:/app# ls
     Pipfile  Pipfile.lock  README.md  demo
     root@74470db53fe6:/app# mkdir uploads
 
-We can try the upload again:
+Now we want to exit the container with ctrl-d and we can try the upload again:
 
     $ curl http://localhost:8000/upload -F "file=@demo.txt"
     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">

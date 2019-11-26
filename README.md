@@ -74,7 +74,7 @@ technique to patch the container while it's running!
 
 Now we want to exit the container with ctrl-d and we can try the upload again:
 
-    $ curl http://localhost:8000/upload -F "file=@demo.txt"
+    $ curl http://localhost:8000/upload -F "file=@dino.txt"
     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
     <title>Redirecting...</title>
     <h1>Redirecting...</h1>

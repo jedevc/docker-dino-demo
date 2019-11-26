@@ -1,5 +1,7 @@
 # Docker demo
 
+**This is the demo from my slides [here](https://docs.google.com/presentation/d/1K7yt9h-T9BoDUA_im8-Tqd-ok1N-tJGDwSGo6hTQkO0/edit?usp=sharing).**
+
 Let's deploy a flask web app in Docker!
 
 ## Startup
